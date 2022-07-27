@@ -1,1 +1,0 @@
-# deniskropp.github.io
