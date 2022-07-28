@@ -11,13 +11,7 @@ interface NewsItem {
   content: string
 }
 
-const news: NewsItem[] = [
-  {
-    date: '2022-07-27 18:30',
-    title: 'New site at deniskropp.github.io',
-    content: 'Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript. Welcome to the new site. I am using Next.js with React and TypeScript.'
-  }
-]
+const news: NewsItem[] = require('./news.json')
 
 const News: NextPage = () => {
   return (
